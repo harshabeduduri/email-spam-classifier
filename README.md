@@ -1,20 +1,48 @@
 # Email Spam Classification System
 
-This project is a Python-based machine learning application that classifies emails as spam or non-spam using supervised learning techniques.
+A Python machine-learning project that classifies email text as **spam** or **not spam** using a supervised learning workflow.
 
-## Description
-The system processes raw email text, converts it into numerical features, trains a Naive Bayes classifier, and evaluates its accuracy. It demonstrates the complete workflow of a basic machine learning project.
+## Overview
 
-## Technologies Used
+The project demonstrates a basic text-classification pipeline: prepare email text, convert text into numerical features, train a Naive Bayes classifier, and evaluate the model.
+
+## Technology
+
 - Python
 - Pandas
-- Scikit-learn
+- scikit-learn
+- Naive Bayes classification
 
-## How to Run
-1. Install dependencies:
+## Run locally
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/harshabeduduri/email-spam-classifier.git
+   cd email-spam-classifier
+   ```
+
+2. Install the dependencies:
+   ```bash
    pip install -r requirements.txt
-2. Run the program:
-   python spam_classifier.py
+   ```
 
-## Use Case
-Helps understand email filtering logic and supervised learning fundamentals.
+3. Run the classifier:
+   ```bash
+   python spam_classifier.py
+   ```
+
+## What this project demonstrates
+
+- Working with text data for a classification task
+- Converting text into model-ready features
+- Training a Naive Bayes classifier
+- Evaluating a supervised machine-learning model
+
+## Scope and limitations
+
+This is an educational project. Its predictions depend on the data and preprocessing used by the implementation; it should not be treated as a production email-security filter.
+
+## Author
+
+**Harshavardhan Reddy**  
+[GitHub profile](https://github.com/harshabeduduri)
